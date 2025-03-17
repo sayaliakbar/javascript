@@ -144,6 +144,51 @@ console.log(leakyVariable); // Works, but potentially confusing!
 
 **Real-life example:** What happens in a closed meeting room (block scope) should stay there, but sometimes information leaks out (like with `var`).
 
+## Hoisting
+
+Hoisting is a JavaScript behavior where variable and function declarations are moved to the top of their scope during code execution.
+
+### Variable Hoisting
+
+```javascript
+console.log(hoistedVar); // undefined (not an error!)
+var hoistedVar = "I was hoisted";
+
+// The above code behaves as if written:
+// var hoistedVar;
+// console.log(hoistedVar);
+// hoistedVar = "I was hoisted";
+```
+
+With `let` and `const`, declarations are hoisted but not initialized (called the "temporal dead zone"):
+
+```javascript
+// console.log(hoistedLet); // Error: Cannot access before initialization
+let hoistedLet = "Not accessible before declaration";
+```
+
+### Function Hoisting
+
+Function declarations are completely hoisted:
+
+```javascript
+sayHello(); // Works even though the function is defined below
+function sayHello() {
+  console.log("Hello!");
+}
+```
+
+Function expressions using variables are not fully hoisted:
+
+```javascript
+// sayHi(); // Error if using let/const, undefined is not a function if using var
+const sayHi = function () {
+  console.log("Hi!");
+};
+```
+
+**Real-life example:** Hoisting is like having your name on a restaurant reservation list (declaration is hoisted) but you can't order food until you actually arrive (initialization).
+
 ## When to Use Each Type
 
 - **Use `const` by default** - If a value never needs to change, make it a constant
@@ -171,6 +216,14 @@ console.log(leakyVariable); // Works, but potentially confusing!
    ```
 
 3. **Use descriptive names** - Your future self will thank you!
+
+## Author
+
+**Ali Akbar**
+
+- GitHub: [@sayaliakbar](https://github.com/sayaliakbar)
+- LinkedIn: [sayaliakbar](https://linkedin.com/in/sayaliakbar)
+- Instagram: [@ialiakbarhazara](https://instagram.com/ialiakbarhazara)
 
 ## Additional Resources
 
