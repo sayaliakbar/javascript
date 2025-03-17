@@ -370,6 +370,14 @@ loggedAdd(2, 3);
 
 5. **Ignoring return values** - Always consider what a function returns
 
+## Author
+
+**Ali Akbar**
+
+- GitHub: [@sayaliakbar](https://github.com/sayaliakbar)
+- LinkedIn: [sayaliakbar](https://linkedin.com/in/sayaliakbar)
+- Instagram: [@ialiakbarhazara](https://instagram.com/ialiakbarhazara)
+
 ## Additional Resources
 
 - [MDN: Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
