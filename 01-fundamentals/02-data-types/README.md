@@ -333,6 +333,14 @@ if (itemCount) {
    }
    ```
 
+## Author
+
+**Ali Akbar**
+
+- GitHub: [@sayaliakbar](https://github.com/sayaliakbar)
+- LinkedIn: [sayaliakbar](https://linkedin.com/in/sayaliakbar)
+- Instagram: [@ialiakbarhazara](https://instagram.com/ialiakbarhazara)
+
 ## Additional Resources
 
 - [MDN: JavaScript Data Types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
