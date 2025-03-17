@@ -350,6 +350,14 @@ console.log(`Shipping: $${shipping}`);
 console.log(`Total: $${total}`);
 ```
 
+## Author
+
+**Ali Akbar**
+
+- GitHub: [@sayaliakbar](https://github.com/sayaliakbar)
+- LinkedIn: [sayaliakbar](https://linkedin.com/in/sayaliakbar)
+- Instagram: [@ialiakbarhazara](https://instagram.com/ialiakbarhazara)
+
 ## Additional Resources
 
 - [MDN: Expressions and Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
